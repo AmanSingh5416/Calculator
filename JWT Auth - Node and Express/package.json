@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "dev2": "nodemon \"./Refresh Token/server2.js\"",
+    "devAuth": "nodemon \"./Refresh Token/authServer.js\""
   },
   "keywords": [],
   "author": "Aman Singh",
